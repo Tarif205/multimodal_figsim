@@ -1,0 +1,33 @@
+# Data is deliberately excluded (mental-health content; dataset licence not confirmed)
+i-h/
+data/
+*.jsonl
+outputs/embeddings/
+outputs/checkpoints/
+outputs/final_test_predictions.json
+outputs/fuzzy_risk_results.json
+outputs/phase7_11_fuzzy_logic_final_test_results.json
+outputs/phase7_6_fuzzy_logic_comparison_results.json
+BN-HIB/
+CMBAN-master/
+*.jpg
+*.jpeg
+*.webp
+
+# Model weights
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.npy
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
